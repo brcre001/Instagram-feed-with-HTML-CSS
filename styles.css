@@ -1,0 +1,41 @@
+
+/* General Selectors */
+
+img {
+    max-width: 100%;
+}
+
+h2 {
+    border-bottom: 1px solid lightgrey;
+    padding: 10px;
+}
+
+p {
+    border-top: 1px solid lightgrey;
+    padding: 10px;
+}
+
+/* Class Selectors */
+
+.heading {
+    margin: auto;
+    background-color: white;
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+}
+
+.card {
+    margin: auto;
+    width: 40%;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container {
+    background-color: grey;
+}
