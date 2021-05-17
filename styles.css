@@ -1,8 +1,19 @@
 
 /* General Selectors */
 
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
 img {
     max-width: 100%;
+}
+
+h1 {
+    width: 40%;
+    text-align: left;
+    margin: auto;
+    padding: 5px;
 }
 
 h2 {
@@ -20,6 +31,7 @@ h2 {
 .container {
     margin: auto;
     padding: 10px 0px 10px 0px;
+    background-color: grey;
 }
 
 .card {
@@ -30,19 +42,17 @@ h2 {
     margin-bottom: 20px;
 }
 
-.container {
-    background-color: grey;
-}
-
 .card-header {
     display: flex;
     justify-content: space-between;
 }
 
 .card-header p {
-    padding: 0px 10px 0px 10px;
     background-color: white;
     text-align: center;
+    font-size: 20px;
+    color: grey;
+    margin-right: 10px;
 }
 
 .card-footer p {
